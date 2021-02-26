@@ -1,0 +1,17 @@
+{
+  "name": "css-packet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "live-server": "live-server --browser=chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eta": "^1.12.1",
+    "live-server": "^1.2.1",
+    "pug": "^3.0.0"
+  },
+  "dependencies": {}
+}

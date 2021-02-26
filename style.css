@@ -1,0 +1,56 @@
+:root {
+    --orange-cisco : #FED780;
+    --blue-cisco : #ACBAD1;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+* , *::before , *::after {
+    box-sizing:inherit;
+}
+
+
+ /* fix and set border collapsing in flexbox
+.packet__field {
+   border-top: 2px solid black;
+   border-bottom: 2px solid black;
+}
+
+.packet__table  .packet__field + .packet__field{
+    
+    border-left: 2px solid black;
+}
+
+.packet__table  .packet__field:first-child {
+    border-left: 2px solid black;
+}
+
+.packet__table    .packet__field:last-child {
+    border-right: 2px solid black;
+} */
+
+
+
+.packet__header {
+    margin: 5px;
+}
+
+.packet__table {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+
+.packet__field {
+    border:1px solid black;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    background-color: var(--orange-cisco);
+    
+    padding: 5px;
+    
+}

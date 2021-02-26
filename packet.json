@@ -1,0 +1,15 @@
+{
+     "packet-header" : ""
+    ,"packet-field" : {
+        "preamble" : {
+            "size" : ""
+           ,"value" : ""
+           ,"order" : ""
+        }
+       ,"payload" : {
+            "size" : ""
+           ,"value" : ""
+           ,"order" : ""
+       }
+    }
+}
